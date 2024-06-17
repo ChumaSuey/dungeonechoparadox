@@ -10720,12 +10720,12 @@
 }
 // brush 1178
 {
-( 2832 -912 -1056 ) ( 2832 -896 -1136 ) ( 2832 -896 -1056 ) +0dem5 [ 0 -1.0000000000000002 0 -12 ] [ 0 0 -1.0000000000000002 0 ] 180 1 1
-( 2832 -912 -1056 ) ( 2880 -912 -1136 ) ( 2832 -912 -1136 ) +0dem5 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 180 1 1
-( 2832 -912 -1136 ) ( 2880 -896 -1136 ) ( 2832 -896 -1136 ) +0dem5 [ -1.0000000000000002 0 0 16 ] [ 0 -1.0000000000000002 0 -28 ] 180 1 1
-( 2832 -912 -1012 ) ( 2880 -896 -1012 ) ( 2880 -912 -1012 ) +0dem5 [ -1.0000000000000002 0 0 16 ] [ 0 1.0000000000000002 0 28 ] 180 1 1
-( 2832 -908 -1056 ) ( 2880 -908 -1136 ) ( 2880 -908 -1056 ) +0dem5 [ -1 0 0 16 ] [ 0 0 -1 16 ] 180 1 1
-( 2896 -896 -1056 ) ( 2896 -912 -1136 ) ( 2896 -912 -1056 ) +0dem5 [ 0 1.0000000000000002 0 12 ] [ 0 0 -1.0000000000000002 0 ] 180 1 1
+( 2832 -912 -1056 ) ( 2832 -896 -1136 ) ( 2832 -896 -1056 ) dem5_3 [ 0 -1.0000000000000002 0 -12 ] [ 0 0 -1.0000000000000002 0 ] 180 1 1
+( 2832 -912 -1056 ) ( 2880 -912 -1136 ) ( 2832 -912 -1136 ) dem5_3 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 180 1 1
+( 2832 -912 -1136 ) ( 2880 -896 -1136 ) ( 2832 -896 -1136 ) dem5_3 [ -1.0000000000000002 0 0 16 ] [ 0 -1.0000000000000002 0 -28 ] 180 1 1
+( 2832 -912 -1012 ) ( 2880 -896 -1012 ) ( 2880 -912 -1012 ) dem5_3 [ -1.0000000000000002 0 0 16 ] [ 0 1.0000000000000002 0 28 ] 180 1 1
+( 2832 -908 -1056 ) ( 2880 -908 -1136 ) ( 2880 -908 -1056 ) dem5_3 [ -1 0 0 16 ] [ 0 0 -1 16 ] 180 1 1
+( 2896 -896 -1056 ) ( 2896 -912 -1136 ) ( 2896 -912 -1056 ) dem5_3 [ 0 1.0000000000000002 0 12 ] [ 0 0 -1.0000000000000002 0 ] 180 1 1
 }
 // brush 1179
 {
@@ -13990,7 +13990,7 @@
 "origin" "768 -2616 -80"
 "angle" "90"
 "targetname" "secretunit01"
-"spawnflags" "16"
+"spawnflags" "784"
 }
 // entity 22
 {
@@ -13998,7 +13998,7 @@
 "origin" "640 -2616 -80"
 "angle" "90"
 "targetname" "secretunit01"
-"spawnflags" "16"
+"spawnflags" "784"
 }
 // entity 23
 {
@@ -14246,12 +14246,14 @@
 "classname" "monster_knight"
 "origin" "800 0 -856"
 "angle" "270"
+"spawnflags" "768"
 }
 // entity 46
 {
 "classname" "monster_knight"
 "origin" "640 0 -856"
 "angle" "270"
+"spawnflags" "768"
 }
 // entity 47
 {
@@ -14981,7 +14983,7 @@
 "classname" "monster_wizard"
 "origin" "640 -864 -24"
 "targetname" "secretunit03"
-"spawnflags" "144"
+"spawnflags" "912"
 }
 // entity 128
 {
@@ -17929,7 +17931,7 @@
 "classname" "monster_wizard"
 "origin" "640 -1056 -24"
 "targetname" "secretunit03"
-"spawnflags" "144"
+"spawnflags" "912"
 }
 // entity 292
 {
@@ -23287,12 +23289,47 @@
 }
 // entity 795
 {
+"classname" "monster_army"
+"origin" "640 -2616 -80"
+"angle" "90"
+"targetname" "secretunit01"
+"spawnflags" "1040"
+}
+// entity 796
+{
+"classname" "monster_army"
+"origin" "768 -2616 -80"
+"angle" "90"
+"targetname" "secretunit01"
+"spawnflags" "1040"
+}
+// entity 797
+{
+"classname" "monster_wizard"
+"origin" "656 -992 -24"
+"targetname" "secretunit03"
+"spawnflags" "1168"
+}
+// entity 798
+{
+"classname" "monster_knight"
+"origin" "736 144 -856"
+"angle" "270"
+"spawnflags" "1024"
+}
+// entity 799
+{
+"classname" "item_health"
+"origin" "720 -1208 -1136"
+"spawnflags" "1025"
+}
+// entity 800
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "aux"
 "_tb_id" "11"
 "_tb_layer_sort_index" "0"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( 3440 -470 -1072 ) ( 3440 -458 -1120 ) ( 3440 -458 -1072 ) metal5_8 [ 0 -1 0 0 ] [ -0 -0 -1 0 ] 0 1 1
@@ -23431,7 +23468,7 @@
 ( -384 -3264 84 ) ( -384 -3265 84 ) ( -384 -3264 85 ) clip [ -6.123233995736766e-17 1 0 0 ] [ 0 0 -1 4 ] 0 1 1
 }
 }
-// entity 796
+// entity 801
 {
 "classname" "trigger_multiple"
 "target" "door04"
@@ -23446,7 +23483,7 @@
 ( 944 -3280 16 ) ( 944 -3280 17 ) ( 944 -3279 16 ) trigger [ 0 1 0 -48 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 797
+// entity 802
 {
 "classname" "trigger_once"
 "message" "It all reboots huh? "
@@ -23461,7 +23498,7 @@
 ( 848 -3296 32 ) ( 848 -3296 33 ) ( 848 -3295 32 ) trigger [ 0 1 0 -32 ] [ 0 0 -1 -32 ] 0 1 1
 }
 }
-// entity 798
+// entity 803
 {
 "classname" "trigger_once"
 "spawnflags" "4"
@@ -23478,7 +23515,7 @@
 ( -416 -3264 96 ) ( -416 -3265 96 ) ( -416 -3264 97 ) trigger [ 0 1 0 0 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 799
+// entity 804
 {
 "classname" "trigger_multiple"
 "target" "secretdoor03"
@@ -23493,7 +23530,7 @@
 ( -1696 -320 328 ) ( -1696 -384 280 ) ( -1696 -384 328 ) trigger [ 0 1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 800
+// entity 805
 {
 "classname" "func_door"
 "angle" "-1"
@@ -23511,7 +23548,7 @@
 ( -1323 -40 480 ) ( -1315 -32 480 ) ( -1315 -32 281 ) metal4_5 [ 0.7071067811865561 0.707106781186539 0 23.845093 ] [ 0 0 -1 -24 ] 0 1 1
 }
 }
-// entity 801
+// entity 806
 {
 "classname" "trigger_teleport"
 "target" "teledestsecret01"
@@ -23526,7 +23563,7 @@
 ( -1323 -28 480 ) ( -1322 -27 480 ) ( -1322 -27 281 ) lgmetal2 [ 0.7071067811865561 0.707106781186539 0 -40.154846 ] [ 0 0 -1 -24 ] 0 1 1
 }
 }
-// entity 802
+// entity 807
 {
 "classname" "trigger_once"
 "message" "Time to ascend from the dungeon, Ranger.\nGood luck, Ranger!"
@@ -23541,7 +23578,7 @@
 ( -1344 2336 312 ) ( -1344 2256 280 ) ( -1344 2256 312 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 803
+// entity 808
 {
 "classname" "trigger_multiple"
 "target" "door01"
@@ -23556,7 +23593,7 @@
 ( 1040 -960 -960 ) ( 1040 -960 -959 ) ( 1040 -959 -960 ) trigger [ 0 1 0 -16 ] [ 0 0 -1 32 ] 0 1 1
 }
 }
-// entity 804
+// entity 809
 {
 "classname" "trigger_secret"
 "spawnflags" "4"
@@ -23572,7 +23609,7 @@
 ( 752 -2848 -112 ) ( 752 -2848 -111 ) ( 752 -2847 -112 ) trigger [ 0 1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 805
+// entity 810
 {
 "classname" "trigger_once"
 "message" "It says: Dragon point towards the nail."
@@ -23587,7 +23624,7 @@
 ( 464 -2416 -112 ) ( 464 -2417 -112 ) ( 464 -2416 -111 ) trigger [ 0 1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 806
+// entity 811
 {
 "classname" "monster_enforcer"
 "origin" "-880 16 504"
