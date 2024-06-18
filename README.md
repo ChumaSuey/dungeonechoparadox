@@ -36,6 +36,7 @@ This track is copyright free, link of reference : https://wiki.creativecommons.o
 - Em3raldTig3r
 - Makkon
 - bmFbr
+- Paril
 - CommonCold
 - Makkon
 - NewHouse
